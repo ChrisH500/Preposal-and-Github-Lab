@@ -2,15 +2,15 @@
 
 ## What will (likely) be the title of your project?
 
-Excalibur 
+Excalibur  
 
 ## In just a sentence or two, summarize your project. (E.g., "A website that lets you buy and sell stocks.")
 
-A software that combines and automates, and allows control other spftware
+All in one Knoweldge, Time, Project Manager
 
 ## In a paragraph or more, detail your project. What will your software do? What features will it have? How will it be executed?
 
-The software will be a multi platform virtual assistant. Within the software I will have access to project and time managment software, connect to siri and other apple services, and commnicate with chat gpt. It's main features would be the ability to project and time manage as well as keep me updated with my schedule and other important dates. It'll excute by taking advantage of these already made software and connecting their data into one app. In theory the software I'm creating would more create a spider web of software acting as a virtual assistant. 
+The software will be a multi platform virtual assistant. There are three different programs. One being a software for the Iphone that would act as a Time manager combining reminders, task/time blocks, calanders and a scedhule to allow for consisent information. Another being a computer software that would be a personal project manager allowing me to keep track of every aspect of any project I work on. Lastly a plugin that would allow me to save information to my
 
 
 ## If planning to combine 1051's final project with another course's final project, with which other course? And which aspect(s) of your proposed project would relate to 1051, and which aspect(s) would relate to the other course?
