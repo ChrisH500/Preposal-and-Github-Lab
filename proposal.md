@@ -25,11 +25,11 @@ TODO, if applicable
 
 ### In a sentence (or list of features), define a GOOD outcome for your final project. I.e., what WILL you accomplish no matter what?
 
- A good out come for my project would be a software that is able to help me project manage effiecntly and use chat gpt to its fullest potential. 
-
+ A good out come for my project would be a software that is able to help me project manage effiecntly 
+ 
 ### In a sentence (or list of features), define a BETTER outcome for your final project. I.e., what do you THINK you can accomplish before the final project's deadline?
 
-A better out come would be the previsouly mentioned features along with being connected to Siri(and maybe other important iphone functions) and allow for time managment as well. 
+A better out come would be the previsouly mentioned features and allow for time managment as well. 
 
 ### In a sentence (or list of features), define a BEST outcome for your final project. I.e., what do you HOPE to accomplish before the final project's deadline?
 
