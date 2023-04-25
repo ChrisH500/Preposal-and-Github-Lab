@@ -1,0 +1,40 @@
+def generate_project_report(project_id):
+    # get project object from database based on project_id
+    project = get_project(project_id)
+    
+    # generate report data
+    report_data = {
+        "project_name": project.name,
+        "start_date": project.start_date,
+        "end_date": project.end_date,
+        "tasks": []
+    }
+    
+    for task in project.tasks:
+        task_data = {
+            "name": task.name,
+            "description": task.description,
+            "priority": task.priority,
+            "allocated_time": task.allocated_time,
+            "time_spent": task.time_spent,
+            "status": task.status
+        }
+        
+        report_data["tasks"].append(task_data)
+    
+    # output report data
+    print("Project Name: ", report_data["project_name"])
+    print("Start Date: ", report_data["start_date"])
+    print("End Date: ", report_data["end_date"])
+    
+    print("\nTasks:")
+    for task in report_data["tasks"]:
+        print("  Task Name: ", task["name"])
+        print("  Description: ", task["description"])
+        print("  Priority: ", task["priority"])
+        print("  Allocated Time: ", task["allocated_time"])
+        print("  Time Spent: ", task["time_spent"])
+        print("  Status: ", task["status"])
+    
+    # export report data to file
+    export_report_to_file(report_data)
