@@ -21,7 +21,7 @@ function load()  {
         }
             
     }
-    document.getElementaryById("projects").innerHtml = inputHtml;
+    document.getElementById("projects").innerHtml = inputHtml;
 
 function newProject() {
     var newString = localStorage.getItem("projects");
